@@ -26,12 +26,13 @@
   <body>
     <p>
       <a href="https://rs.school/">
-        img
+        <img src="img/rs.svg" alt="rsschool" width="300px">
       </a>
     </p>
     <div class="container">
       <div class="aside">
         <h1 id="baranova-natalia">Baranova Natalia</h1>
+        <img src="img/me.jpeg" alt="me" width="400px">
         <p>Address: Argentina, Buenos Aires</p>
       <p>Telegram/WhatsApp/Calls: 
         <a href="tel:+5491161581255">+54 9 11 6158 1255</a>
@@ -71,42 +72,6 @@
         <li>Material UI, Tailwind CSS, Bootstrap</li>
         <li>HTML</li>
       </ol>
-      <h2 id="code-example">Code example</h2>
-      <div class="language-plaintext highlighter-rouge">
-        <div class="highlight">
-          <pre class="highlight">
-            <code>
-              const lessons = [
-                {id: 1, title: "math"},
-                {id: 2, title: "biology"},
-                {id: 3, title: "english"},
-                {id: 4, title: "turkish"}
-              ];
-
-              function selfMadeMap(arr) {
-                const newArr = [];
-                for (let i = 0; i &lt; arr.length; i++) {
-                  let el = arr[i].title.toUpperCase();
-                  newArr.push(el);
-                }
-                return newArr;
-              }
-              console.log(selfMadeMap(lessons)); // ['MATH', 'BIOLOGY', 'ENGLISH', 'TURKISH']
-
-              const selfMadeFilter = (arr, str) =&gt; {
-                const newArr = [];
-                for (let i = 0; i &lt; arr.length; i++) {
-                  if (arr[i].title === str) {
-                    newArr.push(arr[i]);
-                  }
-                }
-                return newArr;
-              };
-              console.log(selfMadeFilter(lessons, 'biology')); // {id: 2, title: 'biology'}
-            </code>
-          </pre>
-        </div>
-      </div>
     </div>
     <div class="content">
       <h2 id="experience">Experience</h2>
@@ -156,6 +121,42 @@
         <li>English  - C1 (in progress)</li>
         <li>Spanish - A2 (in progress)</li>
       </ol>
+      <h2 id="code-example">Code example</h2>
+      <div class="">
+        <div class="">
+          <pre class="">
+            <code>
+              const lessons = [
+                {id: 1, title: "math"},
+                {id: 2, title: "biology"},
+                {id: 3, title: "english"},
+                {id: 4, title: "turkish"}
+              ];
+
+              function selfMadeMap(arr) {
+                const newArr = [];
+                for (let i = 0; i &lt; arr.length; i++) {
+                  let el = arr[i].title.toUpperCase();
+                  newArr.push(el);
+                }
+                return newArr;
+              }
+              console.log(selfMadeMap(lessons)); // ['MATH', 'BIOLOGY', 'ENGLISH', 'TURKISH']
+
+              const selfMadeFilter = (arr, str) =&gt; {
+                const newArr = [];
+                for (let i = 0; i &lt; arr.length; i++) {
+                  if (arr[i].title === str) {
+                    newArr.push(arr[i]);
+                  }
+                }
+                return newArr;
+              };
+              console.log(selfMadeFilter(lessons, 'biology')); // {id: 2, title: 'biology'}
+            </code>
+          </pre>
+        </div>
+      </div>
     </div>      
     </div>
   </body>
