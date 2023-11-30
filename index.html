@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>rsschool-cv</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="_center">
+      <a href="https://rs.school/">
+        <img src="img/rs.svg" alt="rsschool" width="300px">
+      </a>
+    </div>
+    <div class="container">
+      <div class="aside">
+        <h1 id="baranova-natalia">Baranova Natalia</h1>
+        <img src="img/me.jpeg" alt="me" width="400px">
+        <p>Address: Argentina, Buenos Aires</p>
+        <p>Telegram/WhatsApp/Calls:&nbsp;
+          <a href="tel:+5491161581255">+5491161581255</a>
+        </p>
+        <p>Emails:&nbsp;
+          <a href="mailto:borashek@inbox.ru">borashek@inbox.ru</a>,
+          <a href="mailto:borashek88@gmail.com">borashek88@gmail.com</a>
+        </p>
+        <p>
+          LinkedIn:&nbsp;
+          <a href="https://www.linkedin.com/in/nataly-baranova/">https://www.linkedin.com/in/nataly-baranova/</a>
+        </p>
+        <p>
+          GitHub:&nbsp;
+          <a href="https://github.com/borashek32">https://github.com/borashek32</a>
+        </p>
+        <p>
+          Codewars:&nbsp;
+          <a href="https://www.codewars.com/users/borashek32">https://www.codewars.com/users/borashek32</a>
+        </p>
+        <div class="line"></div>
+        <p>I’m a front-end developer looking for the opportunities to grow professionally. Having 2-year background in back-end and full-stack development I have a deep understanding of all the software development processes and how Agile projects are run.Every day I work on my skills in this direction and expanding them with new knowledge. Currently I’m working on project on NextJS and repeating foundations in RSschool.</p>
+        <p>My plans are to learn ExpressJS. Often I solve katas on codewars.com. I value my own time very hight, that’s why it’s better for me to have a remote work. But I can consider an office job too, depends on opportunities that it could provide me with.</p>
+        <div class="line"></div>
+        <h2 id="skills">Skills</h2>
+        <ol>
+          <li>JavaScript, TypeScript</li>
+          <li>ReactJs, React Native, NextJs</li>
+          <li>Thunk, Redux (toolkit), RTK-query</li>
+          <li>React-formik, React-form, React-hook-form</li>
+          <li>Unit, Jest, Snapshot image test, Postman</li>
+          <li>TDD, Singleton, Observer, PubSub</li>
+          <li>Axios, Rest, Swagger</li>
+          <li>Storybook</li>
+          <li>GitHub, GitLab</li>
+          <li>CSS, Sass, Scss, styled components</li>
+          <li>Material UI, Tailwind CSS, Bootstrap</li>
+          <li>HTML</li>
+        </ol>
+      </div>
+      <div class="content">
+        <h2 id="experience">Experience</h2>
+        <ul>
+          <li>
+            <h3>Lemma-auto.ru - 2020-2022</h3>
+            <p>It’s a shop of autoparts. I’ve made it on Laravel 8, php, MySQL from scratch. For UI I’ve used native tools: html, sass, JavaScript and frameworks: bootstrap on a site, tailwind on a dashboard.</p>
+          </li>
+          <li>
+            <h3>Mos.ru - 2021-2022</h3>
+            <p>The main portal of the city of Moscow. I worked as a backend developer (Symfony5)</p>
+          </li>
+          <li>
+            <h3>Labirint.ru - 2020-2020</h3>
+            <p>This is a bookstore. I worked as a full-stack developer (Yii2, native JS, html, css)</p>
+          </li>
+          <li>
+            <h3>Ministry of Economic Development - 2006-2020</h3>
+            <p>Development of an internal database for regulatory documents in MS Access.</p>
+          </li>
+        </ul>
+        <div class="line"></div>
+        <h2 id="education">Education</h2>
+        <ul>
+          <li>
+            <h3>RS-School - 2023-2024</h3>
+            <p>JavaScript developer</p>
+            <p>Minsk, Belarus</p>
+            <p>Repeating the basics of JavaScript, CSS, its preprocessors SCSS and SASS, webpack, HTML</p>
+          </li>
+          <li>
+            <h3>IT-INCUBATOR - 2021-2022</h3>
+            <p>Frontend Developer</p>
+            <p>Minsk, Belarus</p>
+            <p>Learning and working with React, Redux, TypeScript, Promises, REST API, Git, CSS/SASS, Material UI, TDD, Storybook and other  modern frontend technologies</p>
+          </li>
+          <li>
+            <h3>Moscow State University of tourism and service - 2006-2011</h3>
+            <p>Computer analyst</p>
+            <p>Learning databases, SQL, Objective Pascal, Delphi, HTML, Math, other fundamental theoretical subjects and other old stuff</p>
+          </li>
+        </ul>
+        <div class="line"></div>
+        <h2 id="languages">Languages</h2>
+        <ol>
+          <li>Russian - native</li>
+          <li>English  - C1 (in progress)</li>
+          <li>Spanish - A2 (in progress)</li>
+        </ol>
+        <h2 id="code-example">Code example</h2>
+        <div class="">
+          <div class="">
+            <pre class="">
+              <code>
+                const lessons = [
+                  {id: 1, title: "math"},
+                  {id: 2, title: "biology"},
+                  {id: 3, title: "english"},
+                  {id: 4, title: "turkish"}
+                ];
+                function selfMadeMap(arr) {
+                  const newArr = [];
+                  for (let i = 0; i &lt; arr.length; i++) {
+                    let el = arr[i].title.toUpperCase();
+                    newArr.push(el);
+                  }
+                  return newArr;
+                }
+                console.log(selfMadeMap(lessons)); // ['MATH', 'BIOLOGY', 'ENGLISH', 'TURKISH']
+                const selfMadeFilter = (arr, str) =&gt; {
+                  const newArr = [];
+                  for (let i = 0; i &lt; arr.length; i++) {
+                    if (arr[i].title === str) {
+                      newArr.push(arr[i]);
+                    }
+                  }
+                  return newArr;
+                };
+                console.log(selfMadeFilter(lessons, 'biology')); // {id: 2, title: 'biology'}
+              </code>
+            </pre>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
