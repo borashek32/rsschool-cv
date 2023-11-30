@@ -1,7 +1,5 @@
 [RSscholl-cv](https://rs.school/)
 
-![mountains](/img/me.jpg "me")
-
 # Baranova Natalia 
 
 Address: Argentina, Buenos Aires
@@ -110,7 +108,3 @@ console.log(selfMadeFilter(lessons, 'biology')); // {id: 2, title: 'biology'}
 1. Russian - native
 2. English  - C1 (in progress)
 3. Spanish - A2 (in progress)
-
-
-
-![RS-school](/img/rs.jpg "RSS")
